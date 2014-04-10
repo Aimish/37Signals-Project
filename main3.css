@@ -1,0 +1,441 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* MY CSS */
+
+#wrapper {
+	width: 99%;
+	margin: 8px auto;
+	position: absolute;
+	margin-top: 0;
+	margin-right: 0;
+}
+
+a 	{
+	text-decoration: none;
+	padding: 2px;
+}
+
+/* HEADER */
+
+#header	{
+	
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	width: 100%;
+	height: 30px;
+	padding-top: 30px;
+}
+
+/* LEFT NAVIGATION */
+
+#header #navleft a	{
+	color: #A1A7A7;
+	float: left;
+	margin-left: 58px;
+}
+
+/* RIGHT NAVIGATION */
+
+#header #navright	{
+	float: right;
+	padding-right: 58px;
+}
+
+#header #navright .right	{
+	float: left;	
+	padding-left: 14px;
+}
+
+#header #navright .right a {
+	color: #55787c;
+}
+
+#header #navright .right a span {
+	color: #85c2FF;
+}
+
+
+/* 37 SIGNALS LOGO*/
+
+#mainlogo	{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* H1 MAIN TEXT */
+
+#maintext	{
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	width: 1000px;
+	height: 116px ;
+	font-size: 48px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/* CSS FOR MAIN REPLACEMENTS */
+
+#new-basecamp-main	{
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	width: 900px;
+	height: 116px ;
+	font-size: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#new-highrise-main	{
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	width: 900px;
+	height: 116px ;
+	font-size: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#new-campfire-main	{
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	width: 900px;
+	height: 116px ;
+	font-size: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+span 	{
+	color: #335CAD;
+}
+
+#subtext	{ 
+	margin-bottom: 50px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+
+/* CSS FOR SUB REPLACEMENTS */
+
+#new-basecamp-sub	{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#new-highrise-sub	{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#new-campfire-sub	{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+
+
+
+/* THIS CODE STYLES ALL THREE BOXES */
+
+.boxes {
+	display: block;
+	width: 621px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 10px;
+	font-family: Verdana, sans-serif;
+}
+
+/* Box */
+.boxes #basecamp-box {
+	position: relative;
+	height: 255px;
+	width: 185px;
+	margin-right: 20px;
+	border: solid #DEDEDE 1px;
+	border-radius: 6px;	
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+/* Gradient */
+	background: -webkit-linear-gradient(#FAFAFA, #EFEFEF); /* For Safari */
+	background: -o-linear-gradient(#FAFAFA, #EFEFEF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FAFAFA, #EFEFEF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FAFAFA, #EFEFEF); /* Standard syntax */
+}
+
+.boxes #basecamp-box #basecamp-arrow	{
+	position: absolute;
+	top: -29px;
+	right: -22px;
+	
+}
+
+/* Basecamp Logo */ 
+
+.boxes #basecamp-logo {
+	margin-top: 16px;
+	margin-bottom: 20px;
+}
+
+.boxes #manage-projects 	{
+	margin-top: 14px;
+	margin-bottom: 16px;
+}
+
+.boxes #basecamp-box #basecamp-underline {
+	font-size: 20px;
+	color: #335CAD;
+	font-weight: bold;
+}
+
+.boxes #basecamp-box #basecamp-underline #basecamp-superscript {
+	font-size: 9px;
+}
+
+.boxes a {
+	position: relative;
+}
+
+.boxes sup {
+	font-size: 8px;
+	top: -1px;
+	right: -6px;
+	position: absolute;
+}
+
+.boxes #basecamp-box #basecamp-underline a:link {
+	color: #335CAD;
+	margin-bottom: 12px;
+}
+
+.boxes #basecamp-box #basecamp-text-1 {
+	font-size: 13px;
+	color: #CC0000;
+	font-weight: bold;
+}
+
+.boxes #basecamp-box #basecamp-text-2 {
+	font-size: 13px;
+	color: black;
+}
+
+/* THIS CODE STYLES BOX 2 - HIGHRISE */
+
+.boxes #highrise-box {
+	position: relative;
+	height: 255px;
+	width: 185px;
+	border: solid #DEDEDE 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 6px;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+/* GRADIENT */
+	background: -webkit-linear-gradient(#FAFAFA, #EFEFEF); /* For Safari */
+	background: -o-linear-gradient(#FAFAFA, #EFEFEF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FAFAFA, #EFEFEF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FAFAFA, #EFEFEF); /* Standard syntax */
+}
+
+.boxes #highrise-box #highrise-arrow	{
+	position: absolute;
+	top: -29px;
+	right: -22px;
+}
+
+.boxes #highrise-logo {
+	margin-top: 16px;
+	margin-bottom: 20px;
+}
+
+.boxes #manage-contacts 	{
+	margin-top: 14px;
+	margin-bottom: 16px;
+}
+
+.boxes #highrise-box #highrise-underline {
+	font-size: 20px;
+	color: #335CAD;
+	font-weight: bold;
+}
+
+.boxes #highrise-box #highrise-underline #highrise-superscript {
+	font-size: 9px;
+}
+
+.boxes #highrise-box #highrise-text-1 {
+	font-size: 13px;
+	color: #CC0000;
+	font-weight: bold;
+}
+
+.boxes #highrise-box #highrise-text-2 {
+	font-size: 13px;
+	color: black;
+}
+
+/* THIS CODE STYLES BOX 3 - CAMPFIRE */
+
+.boxes #campfire-box {
+	position: relative;
+	height: 255px;
+	width: 185px;
+	margin-left: 20px;
+	border: solid #DEDEDE 1px;
+	border-radius: 6px;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+
+	/* GRADIENT */
+
+	background: -webkit-linear-gradient(#FAFAFA, #EFEFEF); /* For Safari */
+	background: -o-linear-gradient(#FAFAFA, #EFEFEF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FAFAFA, #EFEFEF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FAFAFA, #EFEFEF); /* Standard syntax */
+}
+
+.boxes #campfire-box #campfire-arrow	{ /* see basecamp or highrise arrow for orig code */
+	position: absolute;
+	top: -29px;
+	right: 136px;
+}
+
+.boxes #campfire-logo {
+	margin-top: 16px;
+	margin-bottom: 20px;
+}
+
+.boxes #work-in	{
+	margin-top: 14px;
+	margin-bottom: 16px;
+}
+
+.boxes #campfire-box #campfire-underline {
+	font-size: 20px;
+	color: #335CAD;
+	font-weight: bold;
+}
+
+.boxes #campfire-box #campfire-underline #campfire-superscript {
+	font-size: 9px;
+}
+
+.boxes #campfire-box #campfire-text-1 {
+	font-size: 13px;
+	color: #CC0000;
+	font-weight: bold;
+}
+
+.boxes #campfire-box #campfire-text-2 {
+	font-size: 13px;
+	color: black;
+}
+
+/* CODE FOR ASTERISKS */
+
+#char1 {
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #CBCECB;
+	padding-top: 30px;
+	font-weight: bold;
+	clear: both;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
